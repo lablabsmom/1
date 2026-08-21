@@ -1,3 +1,3 @@
 # 1
-fta
-this is my first project and i dont know what im doing but im learning
+fta forensic transcation analysis
+Forensic analytics project using Python, SQL, Power BI, and generative AI to identify suspicious transaction patterns and investigate fraud risk.

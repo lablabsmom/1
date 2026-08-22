@@ -44,10 +44,17 @@ The dashboard includes:
 
 ## Repository Contents
 
-- `Fraud Risk & Transaction Monitoring Dashboard.pbix` — Power BI dashboard
-- `fraud risk transaction monitoring.png` — Dashboard preview
-- `README.md` — Project documentation
-
+- `Fraud Risk & Transaction Monitoring Dashboard.pbix` — Interactive Power BI fraud risk and transaction monitoring dashboard
+- `fraud risk transaction monitoring.png` — Preview image of the completed Power BI dashboard
+- `analyze_transactions.py` — Python script for transaction analysis, risk scoring, and fraud flagging
+- `generate_data.py` — Generates synthetic transaction data for fraud analytics testing
+- `load_database.py` — Loads transaction data into the SQLite database for analysis
+- `run_queries.py` — Executes investigative SQL queries against the transaction database
+- `investigative_queries.sql` — SQL queries for identifying and investigating suspicious transaction patterns
+- `transactions.csv` — Synthetic transaction dataset used as the analytical input
+- `flagged_transactions.csv` — Output dataset containing transactions identified for further investigation
+- `README.md` — Project overview, methodology, technologies, and documentation
+- 
 ## Purpose
 
 This project was developed as a portfolio demonstration of forensic analytics, fraud risk analysis, data visualization, and technology-enabled investigation techniques.
